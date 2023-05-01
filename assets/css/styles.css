@@ -608,11 +608,25 @@ a {
 
 .footer .social {
     display: flex;
-    align-items: center;
     margin-top: 40px;
-    gap: 34px;
+}
+
+.footer .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
     height: 28px;
-    background: #fff;
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.footer .social-link + .social-link {
+    margin-left: 16px;
+}
+
+.footer .social-link:hover {
+    background: #ebebeb;
 }
 
 .footer .row-bottom {
